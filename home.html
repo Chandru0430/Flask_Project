@@ -1,0 +1,28 @@
+<!-- This file should be moved to a 'templates' folder (lowercase) -->
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<style>
+    body {
+        background-color: #E3F2FD;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    h1 {
+        color: #1976D2;
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+    <h1>Mindteck</h1>
+    <p>Mindteck is a global technology company providing IT solutions and services. We specialize in product engineering, enterprise solutions, and digital transformation services for clients across various industries.</p>
+</div>
+{% endblock %}

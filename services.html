@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Services{% endblock %}
+{% block content %}
+<style>
+    body {
+        background-color: #F3E5F5;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    h1 {
+        color: #1976D2;
+        text-align: center;
+    }
+    .service-block {
+        background-color: #f8f9fa;
+        border-left: 4px solid #1976D2;
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    .service-block h3 {
+        color: #1976D2;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="container">
+    <h1>Our Services</h1>
+    
+    <div class="service-block">
+        <h3>Product Engineering</h3>
+        <p>End-to-end product development from concept to deployment, including design, development, testing, and maintenance.</p>
+    </div>
+    
+    <div class="service-block">
+        <h3>Enterprise Solutions</h3>
+        <p>Custom enterprise applications, ERP implementations, and system integrations to streamline business processes.</p>
+    </div>
+    
+    <div class="service-block">
+        <h3>Digital Transformation</h3>
+        <p>Cloud migration, modernization of legacy systems, and implementation of cutting-edge digital technologies.</p>
+    </div>
+    
+    <div class="service-block">
+        <h3>Quality Assurance</h3>
+        <p>Comprehensive testing services including automated testing, performance testing, and security audits.</p>
+    </div>
+</div>
+{% endblock %}

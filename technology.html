@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title %}Technology{% endblock %}
+{% block content %}
+<style>
+    body {
+        background-color: #FFF3E0;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    h1 {
+        color: #1976D2;
+        text-align: center;
+    }
+    .tech-block {
+        background-color: #f8f9fa;
+        border-left: 4px solid #FF6F00;
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    .tech-block h3 {
+        color: #FF6F00;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="container">
+    <h1>Our Technology Stack</h1>
+    
+    <div class="tech-block">
+        <h3>Programming Languages</h3>
+        <p>Java, Python, C#, JavaScript, TypeScript, and more.</p>
+    </div>
+    
+    <div class="tech-block">
+        <h3>Frameworks & Libraries</h3>
+        <p>Spring Boot, React, Angular, Node.js, Django, Flask, and .NET.</p>
+    </div>
+    
+    <div class="tech-block">
+        <h3>Cloud Platforms</h3>
+        <p>AWS, Microsoft Azure, Google Cloud Platform for scalable and reliable solutions.</p>
+    </div>
+    
+    <div class="tech-block">
+        <h3>Databases</h3>
+        <p>MySQL, PostgreSQL, MongoDB, Oracle, and SQL Server.</p>
+    </div>
+    
+    <div class="tech-block">
+        <h3>DevOps Tools</h3>
+        <p>Docker, Kubernetes, Jenkins, GitLab CI/CD for efficient deployment and monitoring.</p>
+    </div>
+</div>
+{% endblock %}
+~
